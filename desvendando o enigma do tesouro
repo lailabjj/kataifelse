@@ -1,0 +1,31 @@
+const Cor = prompt("digite uma cor");
+const simbolo = prompt("digite um símbolo");
+
+if (Cor === "vermelho" && simbolo === "X"){
+
+console.log("cave um buraco no chão");
+
+}
+
+else if (Cor === "azul" && simbolo === "$"){
+
+    console.log("siga em frente");
+
+}
+ 
+else if (Cor === "verde" && simbolo === "*"){
+
+    console.log("suba em uma árvore");
+
+}
+
+else if (Cor === "amarelo" && simbolo === "#"){
+
+    console.log("pare e descanse");
+
+}
+
+else {
+    console.log("Não há nenhuma identificação disponível")
+
+}

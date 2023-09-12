@@ -53,14 +53,15 @@ else {
     console.log("senha incorreta");
 
 }
-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
 Calculadora Básica: Solicite ao usuário dois números e uma operação (por exemplo, +, -, *, /). 
 Use if e else para executar a operação escolhida e exibir o resultado.
 
 
 
-
-
+-----------------------------------------------------------------------------------------------------------------------------
+Maior de Três Números: Peça ao usuário para inserir três números e use if e else para determinar qual é o maior dos três. 
+Em seguida, exiba o número maior.
 
 
 

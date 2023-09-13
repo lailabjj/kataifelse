@@ -92,15 +92,22 @@ else{
 -----------------------------------------------------------------------------------------------------------------------------
 Maior de Três Números: Peça ao usuário para inserir três números e use if e else para determinar qual é o maior dos três. 
 Em seguida, exiba o número maior.
+let num1 = parseFloat(prompt("digite o primeiro número"));
+let num2 = parseFloat(prompt("digite o segundo número"));
+let num3 = parseFloat(prompt("digite o terceiro número"));
 
+if (num1 > num2 && num1 > num3){
 
+    console.log("o maior número é", num1);
 
+}
+else if (num2 > num1 && num2 > num3){
 
+    console.log("o maior número é", num2);
 
+}
+else {
 
+    console.log("o maior número é", num3);
 
-
-
-
-
-
+}

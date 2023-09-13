@@ -56,7 +56,37 @@ else {
 -----------------------------------------------------------------------------------------------------------------------------
 Calculadora Básica: Solicite ao usuário dois números e uma operação (por exemplo, +, -, *, /). 
 Use if e else para executar a operação escolhida e exibir o resultado.
+let num1 = parseFloat(prompt("digite o primeiro número"));
+let num2 = parseFloat(prompt("digite o segundo número"));
+let operação = prompt("digite a operação, (ex: +, -, *, /)");
 
+if (operação === "+"){
+
+    console.log("o resultado da operação é", num1 + num2);
+    
+    }
+    
+else if (operação === "-"){
+
+    console.log("o resultado da operação é", num1 - num2);
+    
+    }
+
+else if (operação === "*"){
+
+    console.log("o resultado da operação é", num1 * num2);
+    
+    }
+
+else if (operação === "/"){
+
+    console.log("o resultado da operação é", num1 / num2);
+    
+    }
+
+else{
+    console.log("oioioi");
+}    
 
 
 -----------------------------------------------------------------------------------------------------------------------------
